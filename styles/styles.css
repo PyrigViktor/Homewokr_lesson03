@@ -1,0 +1,79 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+.header_name {
+    font-size: 20px;
+    font-weight: 300;
+    font-style: italic;
+    color: white;
+    text-align: center;
+    text-decoration: underline;
+    background-color: gray;
+}
+
+img {
+    width: 300px;
+    height: 300px;
+}
+
+table,
+th,
+td {
+    border: 1px solid black;
+
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-block: 50px;
+    height: 500px;
+
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+html,
+body {
+    min-height: 100%;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+.sign_to_site {
+    align-items: center;
+    margin-left: 1500px;
+    margin-top: -50px;
+
+
+}
+
+.contacts {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: center;
+}
+
+.footer {
+    text-align: left;
+    background-color: green;
+    margin-block: 50px;
+}

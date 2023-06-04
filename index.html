@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/styles.css">
+
+    <title>HomeWork03</title>
+</head>
+
+<body>
+    <div>
+        <!-- Header content -->
+        <header class="header">
+            <h1 id="header_name" class="header_name">PC Store</h1>
+            <nav>
+                <ul>
+                    <li> <a href="#accessories">Accessories</a> </li>
+                    <li> <a href="#laptops">Laptops</a> </li>
+                    <li> <a href="#contacts">Contacts</a> </li>
+                </ul>
+            </nav>
+            <form class="sign_to_site">
+                <input type="text" name="email" id="email" placeholder="Enter your email" required>
+                <input type="password" name="password" id="password" placeholder="Enter your password" required>
+                <button>sign in</button>
+
+            </form>
+
+
+        </header>
+
+        <!-- Main content -->
+
+        <main>
+            <!-- section accessories -->
+            <section id="accessories" class="content">
+                <h3>Accessories</h3>
+                <img src="/assets/images/PC accessories.jpg" alt="PC Accessories">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>AMD</th>
+                            <th>Status</th>
+                            <th>Intel</th>
+                            <th>Status</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>AMD Ryzen 9 7950X</td>
+                            <td>in stock</td>
+                            <td>Intel Core i9-13900K</td>
+                            <td>in stock</td>
+                        </tr>
+                        <tr>
+                            <td>AMD Ryzen 9 7950X3D</td>
+                            <td>out of stock </td>
+                            <td>Intel Core i7-13700K</td>
+                            <td>in stock</td>
+                        </tr>
+
+
+                    </tbody>
+                </table>
+            </section>
+            <!-- section laptops -->
+            <section id="laptops" class="content">
+                <h3>Laptops</h3>
+                <img src="/assets/images/Laptops.webp" alt="Laptops">
+
+                <form>
+                    <label for="brand">Shop by brand</label>
+                    <select name="brand" id="brand">
+                        <optgroup>
+                            <option>Asus</option>
+                            <option>Acer</option>
+                            <option>Dell</option>
+                            <option>HP</option>
+                            <option>MSI</option>
+                            <option>Samsung</option>
+                        </optgroup>
+                    </select>
+                    <label for="processor">Processor</label>
+                    <select name="processor" id="processor">
+                        <optgroup>
+                            <option>Intel</option>
+                            <option>AMD</option>
+                        </optgroup>
+                    </select>
+                    <button type="submit">Confirm</button>
+                </form>
+
+            </section>
+            <!-- Contact content -->
+            <section class="contacts" id="contacts">
+                <h3>Contact with us</h3>
+                <form action="mailto:viktorpwork@gmail.com">
+                    <textarea name="Your question" cols="30" rows="10">Write your question</textarea>
+                    <input type="submit" value="send email">
+                </form>
+            </section>
+
+        </main>
+
+        <!-- footer -->
+        <!-- idk ютуб не позволяте востпроизвести видео -->
+        <footer class="footer">
+            <span>© 2023</span>
+            <p>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/dEBVe8Ij7JU"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen></iframe>
+            </p>
+        </footer>
+
+    </div>
+
+
+
+</body>
+
+</html>
